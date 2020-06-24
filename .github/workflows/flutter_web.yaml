@@ -18,7 +18,7 @@ jobs:
       with:
         channel: 'beta'
 
-    - name: Enable Flutter Web
+    - name: Enable Flutter web
       run: flutter config --enable-web
 
     - name: Install dependencies
